@@ -1,0 +1,313 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Arial';
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: url('../img/bg.jpg') no-repeat center center;
+    height:600px;
+    background-size: cover;
+}
+header #topnav{
+    height:60px;
+    background-color: #41658E;
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    padding:0 50px;
+    z-index: 10;
+}
+#topnav #logo{
+    float:left;
+    width:30%;
+    padding-top:15px;
+}
+#topnav #mainnav{
+    float:right;
+    width:70%;
+    text-align:right;
+}
+#topnav .logoicon{
+    font-size:30px;
+    color:#FFF;
+}
+#mainnav .navitem{
+    color: #FFF;
+    margin-left:30px;
+    display: inline-block;
+    height: 60px;
+    padding: 20px 10px;
+}
+#mainnav .navitem:hover{
+    color: #000;
+}
+#mainnav .active{
+    background-color:#FFF;
+    color:#41658E;
+
+}
+/* head */
+#head{
+    padding-top:200px;
+}
+#head .sitetitle{
+    background:#41658E;
+    color: #FFF;
+    font-size:50px;
+    width:50%;
+    padding: 20px;
+    margin-left:40px;
+}
+/* services */
+#services{
+    padding:20px;
+    background-color: #EEE;
+    min-height:420px; /*note this */
+    overflow: hidden;/*note this */
+}
+#services_sec .sec-head{
+    text-align:center;
+    color: #41658E;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size:30px;
+}
+#services_sec .headhr{
+    width:10%;
+    margin:auto;
+    border: 1px solid #41658E;
+    margin-bottom:30px;
+}
+#services_sec .service{
+    float: left;
+    width: 32.33333%;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    padding:20px;
+    height:250px;
+    position: relative;
+}
+#services_sec .service2, #services_sec .service3{
+    margin-left:1.5%;
+}
+.service .num{
+    width:50px;
+    height:50px;
+    background-color: #41658E;
+    color: #FFF;
+    font-weight: bold;
+    text-align:center;
+    font-size:30px;
+    border-radius: 50%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    left: 20px;
+}
+.service .service-name{
+    color: #41658E;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size:30px;
+    font-family: 'Arial';
+    font-size:20px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.service .service-descr{
+    text-align: justify;
+    line-height: 1.5;
+    color: #6d5f5f;
+    font-family: 'Arial';
+}
+/* services box hover */
+#services_sec .service:hover{
+    border: 1px solid #CCC;
+    cursor:pointer;
+    background-color: #41658E;;
+}
+#services_sec .service:hover .num{
+    background-color: #FFF;
+    color: #41658E;
+}
+#services_sec .service:hover .service-name{
+    color: #FFF;
+}
+#services_sec .service:hover .service-descr{
+    color: #FFF;
+}
+/* about us */
+#about-us{
+    max-height: 470px;
+    background-color: #336aa5;
+    padding: 20px 25px;
+    overflow: hidden;
+}
+#about-us .sec-head{
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+}
+#about-us .headhr{
+    margin: auto;
+    border: 1px solid #fff;
+    width: 6%;
+    margin-bottom: 10px;
+}
+#about-us .about-info{
+    float: left;
+    width: 70%;
+    text-align: justify;
+    padding-right: 100px;
+    line-height: 1.5;
+    color: #fff;
+}
+#about-us .about-image{
+    float: left;
+    width: 30%;
+}
+#about-us .about-image .img{
+    border: 2px solid #fff;
+}
+#about-us .about-image .box-back .img{
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+#about-us .about-image .box-lastback .img{
+    position: relative;
+    top: -180px;
+    left: -9px;
+}
+#about-us .about-image .box-front .img{
+    position: relative;
+    top: -141px;
+    left: -17px;
+}
+#about-us .about-image .box-four .img{
+    position: relative;
+    top: -239px;
+    left: 112px;
+}
+/* image Hover */
+#about-us .about-image .box-img .img:hover{
+    opacity: 0.7;
+    z-index: 10;
+    border: 2px solid peru;
+}
+/* footer */
+footer{
+    background: url('../img/bg.jpg') no-repeat center center;
+    height: 300px;
+    background-size:cover;
+}
+footer #footer{
+    background: rgba(2, 35, 74, 0.9);
+    height: 300px;
+    background-size:cover;
+    padding:30px;
+    color: #FFF;
+    font-family: 'Arial';
+    overflow: hidden;
+}
+#footer .side{
+    float:left;
+    width:33.3333%;
+    padding:20px;
+}
+#footer .side-title{
+    font-size:14px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.info-side .site-about{
+    line-height: 1.5;
+    margin-bottom:15px;
+    font-size:12px;
+}
+.info-side .social{
+    text-align: center;
+}
+.social .social-icon{
+    font-size:22px;
+    margin-left:7px;
+}
+#footer .quick-links .qlinks{
+    margin-left:20px;
+}
+.qlinks .qlink-li{
+    margin-bottom: 8px;
+}
+.qlink-li .qlink-item{
+    color: #FFF;
+    font-size:12px;
+}
+.qlink-li .qlink-item:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.contact-form .inputf, .contact-form .inputarea, .contact-form .btn{
+    display: block;
+    width:100%;
+    margin-bottom: -5px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid #CCC;
+}
+.contact-form .inputf, .contact-form .inputarea{
+    text-indent: 15px
+}
+.contact-form .inputarea{
+    color: #716868;
+    resize: none; /*note this, it disable the resize of the textarea */
+}
+.contact-form .inputf:focus, .contact-form .inputarea:focus{
+    outline: 0;
+    border: 1px solid #41658E;
+}
+.contact-form .btn{
+    background-color: #41658E;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    font-weight: bold;
+}
+.contact-form .btn:hover{
+    background-color: #CCC;
+    color: #41658E;
+    cursor: pointer;
+}
+#footer .contact .person-icon, #footer .contact .msg-icon{
+    color: #545151;
+    position: relative;
+    top: 35px;
+    left: 15px;
+}
+#footer .contact .send-icon{
+    position: relative;
+    top: 30px;
+    right: -229px;
+}
+/* copyright */
+#copyright{
+    background-color: #545151;
+    color: #FFF;
+    text-align:center;
+    line-height: 3;
+    text-transform: capitalize;
+    font-size:12px;
+    font-family: 'Arial';
+}
