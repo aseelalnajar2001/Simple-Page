@@ -8,7 +8,7 @@ This Page is a simple page structure created by html,html5,CSS and CSS3 skills
  **[Click here](https://aseelalnajar2001.github.io/Simple-Page/)**
 
 
-## Used Skills: :exclamation:
+## Used Skills: :star:
 - HTML
 - HTML5
 - CSS
