@@ -1,9 +1,7 @@
 # Simple Page Structure
 This Page is a simple page structure created by html,html5,CSS and CSS3 skills 
-## Using Skills:
 
-- 
- ## Visit Site:  :star:
+## Visit Site:  :star:
  
  **[Click here](https://aseelalnajar2001.github.io/Simple-Page/)**
 
